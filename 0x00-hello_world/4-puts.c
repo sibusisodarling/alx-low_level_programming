@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * Afunction that prints out an output using puts instead of printf
+ * main - This is the entry point
  *
- * The function returns 0
+ * Return: returns a 0 always
  */
-int main(void){
+int main(void)
+{
 	puts("\"Programming is like building a multilingual puzzle");
 
-	return 0;
+	return (0);
 }
