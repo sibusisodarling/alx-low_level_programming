@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - The entry point of the program
+ * main - Entry point of the program
  *
- * return - The function must return a 0
+ * Return: - always returns a 0
  */
 int main(void)
 {
