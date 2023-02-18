@@ -8,15 +8,13 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main()
 {
-	char low;
+	char ch;
 
-	for (low = 'a'; low <= 'z'; low++)
-	{
-		putchar(low);
-		putchar('\n');
-	}
-
+	for (ch = 'a'; ch <= 'z'; ++ch)
+		putchar("%c ", ch);
+		putchar('\n')
+	
 	return (0);
 }
