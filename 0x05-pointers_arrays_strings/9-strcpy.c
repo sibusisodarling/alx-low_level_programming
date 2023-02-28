@@ -12,9 +12,9 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	char *somestring = dest;
+	char *joy = dest;
 
 	while (*src)
 		*dest++ = *src++;
-	return (somestring);
+	return (joy);
 }
